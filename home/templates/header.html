@@ -44,11 +44,10 @@
                         <a href="/home"><i class="fa fa-home"></i></a>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Kategoriler<b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories<b class="caret"></b></a>
                         <!-- Dropdown Menu -->
                         <ul class="dropdown-menu">
                             {% load mptt_tags %}
-
                             {% recursetree category %}
                                 {% if node.is_leaf_node %}
                                 <li><a href="/category/{{ node.id }}/{{ node.slug }}" tabindex="-1" class="menu-item">{{ node.title }}</a></li>
@@ -57,9 +56,7 @@
                                 {% if not node.is_leaf_node %}
                                     &emsp; <ui><b>{{ node.title }}--></b></ui>
                                     <ul class="children">
-
                                         {{ children }}
-
                                     </ul>
                                 {% endif %}
 
@@ -67,8 +64,8 @@
                             <!-- ÖRNEK <li><a href="elements.html" tabindex="-1" class="menu-item">Elements</a></li> -->
                         </ul>
                     </li>
-                    <li><a href="/aboutus/">Hakkımızda</a></li>
-                    <li><a href="/contact/">İletişim</a></li>
+                    <li><a href="/aboutus/">about us</a></li>
+                    <li><a href="/contact/">Communication</a></li>
                     <li><a href="/sss/">SSS</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu<b class="caret"></b></a>

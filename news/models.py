@@ -15,8 +15,8 @@ from mptt.models import MPTTModel
 
 class Category(MPTTModel):
     STATUS = (
-        ('True', 'Evet'),
-        ('False', 'Hayır'),
+        ('True', 'Yes'),
+        ('False', 'No'),
 
     )
 
@@ -53,9 +53,9 @@ class Category(MPTTModel):
 
 class News(models.Model):
     STATUS = (
-        ('True', 'Evet'),
-        ('New', 'Yeni'),
-        ('False', 'Hayır'),
+        ('True', 'Yes'),
+        ('New', 'New'),
+        ('False', 'No'),
     )
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
     user = models.ForeignKey(User, on_delete=models.CASCADE, null=True)
@@ -103,9 +103,9 @@ class NewsImageForm(ModelForm):
 
 class Comments(models.Model):
     STATUS = (
-        ('True', 'Evet'),
-        ('New', 'Yeni'),
-        ('False', 'Hayır'),
+        ('True', 'Yes'),
+        ('New', 'News'),
+        ('False', 'No'),
 
     )
     news = models.ForeignKey(News, on_delete=models.CASCADE)
@@ -140,5 +140,4 @@ class NewsForm(ModelForm):
             'image': FileInput(attrs={'class': 'input', 'placeholder': 'image'}),
             'slug': TextInput(attrs={'class': 'input', 'placeholder': 'slug'}),
             'detail': CKEditorWidget(),
-
         }

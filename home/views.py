@@ -13,7 +13,7 @@ import json
 
 
 def index(request):
-    setting = Setting.objects.get(pk=1)
+    setting = Setting.objects.first()
     sliderdata = News.objects.all()[:6]
     category = Category.objects.all()
     menu = Menu.objects.all()
@@ -22,15 +22,17 @@ def index(request):
     events = Content.objects.filter(type='etkinlik').order_by('-id')[:3]
     announcements = Content.objects.filter(type='duyuru').order_by('-id')[:3]
 
-    context = {'setting': setting,
-               'category': category,
-               'page': 'home',
-               'menu': menu,
-               'sliderdata': sliderdata,
-               'lastnews': lastnews,
-               'randomnews': randomnews,
-               'events': events,
-               'announcements': announcements}
+    context = {
+        'setting': setting,
+        'category': category,
+        'page': 'home',
+        'menu': menu,
+        'sliderdata': sliderdata,
+        'lastnews': lastnews,
+        'randomnews': randomnews,
+        'events': events,
+        'announcements': announcements
+    }
     return render(request, 'index.html', context)
 
 
@@ -63,10 +65,12 @@ def contact(request):
 
     setting = Setting.objects.get(pk=1)
     form = ContactFormu()
-    context = {'setting': setting,
-               'form': form,
-               'category': category,
-               'menu': menu}
+    context = {
+        'setting': setting,
+        'form': form,
+        'category': category,
+        'menu': menu
+    }
     return render(request, 'contact.html', context)
 
 

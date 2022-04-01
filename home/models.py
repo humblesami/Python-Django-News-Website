@@ -9,8 +9,8 @@ from django.utils.safestring import mark_safe
 
 class Setting(models.Model):
     STATUS = (
-        ('True', 'Evet'),
-        ('False', 'Hayır'),
+        ('True', 'Yes'),
+        ('False', 'No'),
     )
     title = models.CharField(max_length=150)
     keywords = models.CharField(max_length=255)

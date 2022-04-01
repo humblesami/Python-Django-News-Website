@@ -1,107 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84445c65-fbbf-4fd9-95ae-e2663f318bc6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/uploads/images/47841_hizli-ve-ofkeli-9un-ilk-fragmani-yayinlandi_original_Vw6SFmM.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/md_b9ittvS.jpg" afterDir="false" />
+    <list default="true" id="1f6f9f8d-580b-4afe-bf86-f4830e0a3ee0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/website.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Burak.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project2.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/migrations/0002_auto_20200514_0304.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/migrations/0002_auto_20200318_0319.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/migrations/0003_auto_20200318_0321.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/migrations/0006_userprofile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/migrations/0007_faq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/migrations/0008_auto_20200515_2350.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/migrations/0009_faq_number.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/error.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/user_comments.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/user_comments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/migrations/0002_news.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/migrations/0003_auto_20200314_1700.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/migrations/0004_auto_20200318_0303.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/migrations/0015_auto_20200602_1428.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project2/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db" type="feb32156:DbDataSourceImpl" />
-      </path>
-    </expand>
-    <select />
-  </component>
-  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
-    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-        <option value="HTML File" />
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="burakyilmazdev" />
-        <option value="Burak Yılmaz" />
-      </list>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1YeXno3iCs3bNj79nzlTMc1Heyr" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectId" id="27Bn6QPLd2d2U59C08uPlpKfGto" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Django\project2\uploads\images" />
-      <recent name="C:\Django\project2\uploads" />
-      <recent name="C:\Django\project2\home\static\img" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Django\project2\user\templates" />
-      <recent name="C:\Django\project2\home\templates" />
-      <recent name="C:\Django\project2\news" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Python.models">
-    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="project2" />
+  <component name="RunManager">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="website" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/home" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/pyvenvs/website-news/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/home/models.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -109,416 +79,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="project2" type="Python.DjangoServer" factoryName="Django server">
-      <module name="project2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DJANGO_SETTINGS_MODULE" value="project2.settings" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.models" />
-      </list>
-    </recent_temporary>
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="84445c65-fbbf-4fd9-95ae-e2663f318bc6" name="Default Changelist" comment="" />
-      <created>1583304202999</created>
+      <changelist id="1f6f9f8d-580b-4afe-bf86-f4830e0a3ee0" name="Changes" comment="" />
+      <created>1648802170843</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1583304202999</updated>
-      <workItem from="1583304204298" duration="1036000" />
-      <workItem from="1583338702136" duration="244000" />
-      <workItem from="1583389875733" duration="6572000" />
-      <workItem from="1583426398190" duration="14000" />
-      <workItem from="1583872819957" duration="4051000" />
-      <workItem from="1583920798721" duration="3050000" />
-      <workItem from="1584127426617" duration="9215000" />
-      <workItem from="1584193321743" duration="2860000" />
-      <workItem from="1584476161492" duration="8262000" />
-      <workItem from="1584573643144" duration="135000" />
-      <workItem from="1584708217768" duration="468000" />
-      <workItem from="1585147028302" duration="1043000" />
-      <workItem from="1585166773930" duration="718000" />
-      <workItem from="1585340975799" duration="1736000" />
-      <workItem from="1586015411038" duration="20075000" />
-      <workItem from="1586096682149" duration="607000" />
-      <workItem from="1586355425733" duration="10465000" />
-      <workItem from="1586372332382" duration="2000" />
-      <workItem from="1586526959759" duration="1072000" />
-      <workItem from="1586567978570" duration="1235000" />
-      <workItem from="1586613441487" duration="9018000" />
-      <workItem from="1586629220281" duration="1539000" />
-      <workItem from="1586649227899" duration="6592000" />
-      <workItem from="1586960889492" duration="4408000" />
-      <workItem from="1586990920236" duration="10697000" />
-      <workItem from="1587055963357" duration="14801000" />
-      <workItem from="1587321988399" duration="3730000" />
-      <workItem from="1587415844628" duration="6118000" />
-      <workItem from="1587438917527" duration="680000" />
-      <workItem from="1587478319081" duration="1011000" />
-      <workItem from="1587503963619" duration="16212000" />
-      <workItem from="1587583536267" duration="1598000" />
-      <workItem from="1587783603644" duration="10356000" />
-      <workItem from="1587945878510" duration="313000" />
-      <workItem from="1588196874024" duration="573000" />
-      <workItem from="1588503496766" duration="243000" />
-      <workItem from="1588560225317" duration="12175000" />
-      <workItem from="1588751952921" duration="1709000" />
-      <workItem from="1588777554612" duration="5153000" />
-      <workItem from="1588782932126" duration="6662000" />
-      <workItem from="1588977182948" duration="4454000" />
-      <workItem from="1589189364659" duration="22637000" />
-      <workItem from="1589385326443" duration="12785000" />
-      <workItem from="1589575089093" duration="9932000" />
-      <workItem from="1589631513437" duration="11908000" />
-      <workItem from="1589662063929" duration="4215000" />
-      <workItem from="1589755195140" duration="613000" />
-      <workItem from="1589834902724" duration="211000" />
-      <workItem from="1589901905569" duration="8745000" />
-      <workItem from="1590000051236" duration="1419000" />
-      <workItem from="1590093156133" duration="624000" />
-      <workItem from="1590984001942" duration="223000" />
-      <workItem from="1590993487782" duration="1751000" />
-      <workItem from="1591018070614" duration="73000" />
-      <workItem from="1591081108720" duration="3741000" />
-      <workItem from="1591135784177" duration="1446000" />
-      <workItem from="1591206363670" duration="2308000" />
+      <updated>1648802170843</updated>
     </task>
-    <task id="LOCAL-00001" summary="Header değiştirildi.">
-      <created>1585344145385</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1585344145385</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Ckeditor eklendi.">
-      <created>1586021207794</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1586021207794</updated>
-    </task>
-    <task id="LOCAL-00003" summary="About us ve contact sayfaları oluşturuldu.">
-      <created>1586039153647</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1586039153647</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Contact Form eklendi">
-      <created>1586052797856</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1586052797856</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Slider düzenlendi.">
-      <created>1586054716439</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1586054716439</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Kategori ve alt kategori menü işlemleri yapıldı.">
-      <created>1586367817796</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1586367817796</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Kategori ve alt kategori menü işlemleri yapıldı.">
-      <created>1586527547778</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1586527547778</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Anasayfaya son dakika haberleri ve haberler eklendi.">
-      <created>1586651774838</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1586651774838</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Haber detay sayfası oluşturuldu ve haberlere resim galerisi eklendi.">
-      <created>1586656385934</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1586656385934</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Haberler sayfasındaki link sorunu çözüldü.">
-      <created>1586970127715</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1586970127715</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Yorum yapma ve yorum listeleme yapıldı.">
-      <created>1587089554941</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1587089554941</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Arama çubuğu eklendi">
-      <created>1587325999110</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1587325999110</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Otomatik slug üretme yapıldı">
-      <created>1587505702548</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1587505702549</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Anasayfada login işlemi yapıldı">
-      <created>1587514903073</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1587514903073</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Anasayfada sign up işlemleri yapıldı.">
-      <created>1587529129508</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1587529129508</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Comment formunun iki kere submit edilmesi bugı düzeltildi.">
-      <created>1587585038882</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1587585038882</updated>
-    </task>
-    <task id="LOCAL-00017" summary="User profile yapıldı.">
-      <created>1587786314785</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1587786314785</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Anasayfada üye paneli ve bilgileri sayfası yapıldı.">
-      <created>1587795323760</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1587795323760</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Kullanıcı profiline change password ve update profile kısımları eklendi">
-      <created>1588575026497</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1588575026497</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Kullanıcıya my news sayfası eklendi.">
-      <created>1588844363235</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1588844363235</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Kullanıcı sayfasında my comments sayfası getirildi.">
-      <created>1588979761207</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1588979761207</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Content Management System yapıldı">
-      <created>1589227058539</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1589227058539</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Kullanıcı menüsünden haber ekleme,silme,düzenleme işlemleri yapıldı.">
-      <created>1589414344883</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1589414344883</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Sıkça sorulan sorular kısmı yapıldı.">
-      <created>1589578913553</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1589578913553</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Yeni üye olan kullanıcıya varsayılan bir image eklendi.">
-      <created>1589581919565</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1589581919565</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Resim galerisi estetik hale getirildi.">
-      <created>1589592616148</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1589592616148</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Biçimsel iyileştirmeler yapıldı.">
-      <created>1589655660492</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1589655660492</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Birkez daha biçimsel iyileştirilmeler yapıldı.">
-      <created>1589664066002</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1589664066002</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Bütün meta taglar dinamik yapıldı.">
-      <created>1589666261620</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1589666261620</updated>
-    </task>
-    <task id="LOCAL-00030" summary="User menüsüne haber resim galerisi eklendi.">
-      <created>1589922011249</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1589922011249</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Düzenlemeler yapıldı.">
-      <created>1591097882202</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1591097882202</updated>
-    </task>
-    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Kategori ve alt kategori menü işlemleri yapıldı." />
-    <MESSAGE value="Anasayfaya son dakika haberleri ve haberler eklendi." />
-    <MESSAGE value="Haber detay sayfası oluşturuldu ve haberlere resim galerisi eklendi." />
-    <MESSAGE value="Haberler sayfasındaki link sorunu çözüldü." />
-    <MESSAGE value="Yorum yapma ve yorum listeleme yapıldı." />
-    <MESSAGE value="Arama çubuğu eklendi" />
-    <MESSAGE value="Otomatik slug üretme yapıldı" />
-    <MESSAGE value="Anasayfada login işlemi yapıldı" />
-    <MESSAGE value="Anasayfada sign up işlemleri yapıldı." />
-    <MESSAGE value="Comment formunun iki kere submit edilmesi bugı düzeltildi." />
-    <MESSAGE value="User profile yapıldı." />
-    <MESSAGE value="Anasayfada üye paneli ve bilgileri sayfası yapıldı." />
-    <MESSAGE value="Kullanıcı profiline change password ve update profile kısımları eklendi" />
-    <MESSAGE value="Kullanıcıya my news sayfası eklendi." />
-    <MESSAGE value="Kullanıcı sayfasında my comments sayfası getirildi." />
-    <MESSAGE value="Content Management System yapıldı" />
-    <MESSAGE value="Kullanıcı menüsünden haber ekleme,silme,düzenleme işlemleri yapıldı." />
-    <MESSAGE value="Sıkça sorulan sorular kısmı yapıldı." />
-    <MESSAGE value="Yeni üye olan kullanıcıya varsayılan bir image eklendi." />
-    <MESSAGE value="Resim galerisi estetik hale getirildi." />
-    <MESSAGE value="Biçimsel iyileştirmeler yapıldı." />
-    <MESSAGE value="Birkez daha biçimsel iyileştirilmeler yapıldı." />
-    <MESSAGE value="Bütün meta taglar dinamik yapıldı." />
-    <MESSAGE value="User menüsüne haber resim galerisi eklendi." />
-    <MESSAGE value="Düzenlemeler yapıldı." />
-    <option name="LAST_COMMIT_MESSAGE" value="Düzenlemeler yapıldı." />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585343899639">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1585343899639" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589638604707">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1589638604707" />
-    <state x="651" y="14" key="CommitChangelistDialog2" timestamp="1591097881029">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="651" y="14" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591097881029" />
-    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1588575119053">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588575119053" />
-    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1588575119053">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588575119053" />
-    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1588575119053">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588575119053" />
-    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1588575119053">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588575119053" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1588575119053">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588575119053" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1588575119053">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588575119053" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1588575119053">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588575119053" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1588575119053">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588575119053" />
-    <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1588841030673">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="189" height="457" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1588841030673" />
-    <state x="755" y="0" width="781" height="824" key="Vcs.Push.Dialog.v2" timestamp="1591097890037">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="755" y="0" width="781" height="824" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591097890037" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1591206363279">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591206363279" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1589403934744">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1589403934744" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

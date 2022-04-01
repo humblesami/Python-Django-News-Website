@@ -11,8 +11,8 @@ from mptt.models import MPTTModel
 
 class Menu(MPTTModel):
     STATUS = (
-        ('True', 'Evet'),
-        ('False', 'Hayır'),
+        ('True', 'Yes'),
+        ('False', 'No'),
 
     )
     link = models.CharField(max_length=100, blank=True)
@@ -43,9 +43,8 @@ TYPE = (
 
 class Content(models.Model):
     STATUS = (
-        ('True', 'Evet'),
-        ('True', 'Evet'),
-
+        ('True', 'Yes'),
+        ('False', 'No'),
     )
     menu = models.OneToOneField(Menu, null=True, blank=True, on_delete=models.CASCADE)
     type = models.CharField(max_length=10, choices=TYPE)
